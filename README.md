@@ -39,7 +39,7 @@ student-performance-predictor/
 
 ### 1. Clone the repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/abhii395/EduPredict-AI---Student-Performance-Predictor
 cd student-performance-predictor
 ```
 
