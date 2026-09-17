@@ -1,0 +1,83 @@
+{
+  "feature_cols": [
+    "gender",
+    "parental_education",
+    "internet_access",
+    "extracurricular_activities",
+    "study_hours",
+    "attendance_rate",
+    "past_exam_score"
+  ],
+  "numeric_cols": [
+    "study_hours",
+    "attendance_rate",
+    "past_exam_score"
+  ],
+  "categorical_cols": [
+    "gender",
+    "parental_education",
+    "internet_access",
+    "extracurricular_activities"
+  ],
+  "best_regressor": "Gradient Boosting",
+  "best_classifier": "Logistic Regression",
+  "regression_results": {
+    "Linear Regression": {
+      "RMSE": 8.833,
+      "MAE": 6.98,
+      "R2": 0.51,
+      "CV_R2": 0.48
+    },
+    "SVM (SVR)": {
+      "RMSE": 8.462,
+      "MAE": 6.55,
+      "R2": 0.55,
+      "CV_R2": 0.526
+    },
+    "Random Forest": {
+      "RMSE": 8.097,
+      "MAE": 6.323,
+      "R2": 0.588,
+      "CV_R2": 0.578
+    },
+    "Gradient Boosting": {
+      "RMSE": 7.55,
+      "MAE": 6.021,
+      "R2": 0.642,
+      "CV_R2": 0.637
+    },
+    "XGBoost": {
+      "RMSE": 8.383,
+      "MAE": 6.73,
+      "R2": 0.559,
+      "CV_R2": 0.565
+    }
+  },
+  "classification_results": {
+    "Logistic Regression": {
+      "Accuracy": 0.945,
+      "F1": 0.9291,
+      "CV_Acc": 0.9375
+    },
+    "SVM (SVC)": {
+      "Accuracy": 0.92,
+      "F1": 0.9073,
+      "CV_Acc": 0.9288
+    },
+    "Random Forest": {
+      "Accuracy": 0.935,
+      "F1": 0.9084,
+      "CV_Acc": 0.935
+    },
+    "Gradient Boosting": {
+      "Accuracy": 0.935,
+      "F1": 0.9163,
+      "CV_Acc": 0.9425
+    },
+    "XGBoost": {
+      "Accuracy": 0.925,
+      "F1": 0.9102,
+      "CV_Acc": 0.9338
+    }
+  }
+}

@@ -1,0 +1,1001 @@
+gender,parental_education,study_hours,attendance_rate,past_exam_score,internet_access,extracurricular_activities,final_score
+Female,High School,25,78,67,Yes,No,80
+Male,Intermediate,17,85,53,Yes,No,63
+Male,Masters,10,85,74,No,Yes,82
+Male,Bachelors,18,89,38,Yes,No,81
+Female,Masters,11,82,68,Yes,Yes,79
+Female,Bachelors,9,66,70,Yes,No,65
+Female,Bachelors,5,80,81,Yes,No,93
+Male,Masters,0,92,84,Yes,Yes,86
+Male,High School,11,82,62,Yes,No,78
+Male,Intermediate,16,82,67,Yes,Yes,80
+Female,High School,14,94,58,Yes,Yes,76
+Male,PhD,11,77,53,Yes,Yes,86
+Male,Masters,7,69,74,No,Yes,68
+Female,None,19,83,50,Yes,Yes,70
+Female,Bachelors,4,80,63,Yes,No,71
+Female,Masters,21,75,55,Yes,Yes,77
+Female,High School,6,83,78,Yes,No,77
+Male,Intermediate,8,89,97,No,Yes,79
+Female,Masters,3,84,50,Yes,Yes,75
+Female,None,10,88,42,Yes,No,50
+Male,Bachelors,22,100,68,No,Yes,97
+Female,High School,19,81,70,Yes,Yes,87
+Female,Masters,22,87,73,No,No,92
+Female,PhD,19,79,63,Yes,Yes,91
+Female,Masters,6,76,66,Yes,Yes,70
+Male,Intermediate,12,79,75,Yes,Yes,95
+Female,Masters,8,80,85,Yes,No,89
+Male,Masters,25,88,40,No,No,69
+Male,High School,5,100,64,Yes,No,76
+Female,Masters,22,77,73,Yes,No,100
+Male,None,22,80,56,Yes,Yes,72
+Female,Intermediate,29,84,95,Yes,Yes,100
+Female,High School,11,88,60,Yes,No,79
+Male,High School,20,87,69,No,Yes,66
+Male,None,33,97,78,Yes,Yes,88
+Male,Bachelors,10,60,61,Yes,Yes,81
+Female,High School,2,61,42,Yes,Yes,35
+Female,Bachelors,0,80,63,Yes,No,71
+Male,None,20,95,85,Yes,Yes,77
+Female,High School,0,69,64,Yes,Yes,60
+Female,Intermediate,12,54,57,No,Yes,55
+Female,Bachelors,18,90,83,Yes,No,91
+Female,High School,16,87,65,Yes,Yes,75
+Male,Bachelors,18,74,62,Yes,Yes,76
+Female,Masters,16,75,72,No,No,93
+Male,Bachelors,25,75,81,Yes,No,100
+Female,High School,7,86,100,Yes,Yes,79
+Male,None,9,78,82,Yes,Yes,85
+Male,Masters,8,89,87,Yes,Yes,93
+Female,None,21,56,62,Yes,Yes,68
+Male,Masters,22,76,54,Yes,Yes,87
+Male,Intermediate,18,73,70,Yes,Yes,77
+Male,Masters,24,82,71,Yes,Yes,100
+Male,Bachelors,5,79,53,No,Yes,64
+Male,PhD,28,92,67,Yes,No,97
+Male,Intermediate,27,66,75,Yes,No,74
+Female,Bachelors,20,85,75,Yes,No,84
+Female,Intermediate,29,90,77,Yes,Yes,84
+Female,Intermediate,1,100,74,Yes,Yes,81
+Female,Bachelors,10,80,62,Yes,No,69
+Female,Masters,9,88,62,Yes,Yes,84
+Female,PhD,20,66,52,Yes,Yes,95
+Male,Bachelors,6,61,96,Yes,Yes,94
+Female,Intermediate,21,93,70,Yes,No,86
+Female,Intermediate,25,84,66,Yes,No,83
+Male,Bachelors,20,96,56,Yes,Yes,100
+Female,High School,17,71,100,Yes,Yes,93
+Male,High School,7,90,53,Yes,No,65
+Female,Intermediate,8,100,63,Yes,Yes,71
+Male,High School,24,89,76,Yes,No,89
+Male,High School,21,87,79,Yes,No,91
+Female,High School,14,85,84,Yes,No,78
+Female,None,11,69,97,Yes,Yes,81
+Male,None,0,98,77,No,Yes,60
+Male,PhD,6,78,54,No,Yes,70
+Male,Intermediate,30,90,66,No,No,61
+Male,Intermediate,4,69,74,Yes,No,69
+Female,Bachelors,16,73,100,Yes,Yes,100
+Female,High School,23,99,49,No,Yes,66
+Female,Masters,4,81,88,Yes,No,89
+Male,Bachelors,16,99,72,Yes,No,85
+Male,None,22,84,82,Yes,No,83
+Female,Intermediate,15,66,68,Yes,Yes,75
+Female,Masters,37,93,57,No,Yes,86
+Female,Masters,1,79,81,Yes,No,93
+Female,Intermediate,23,91,79,Yes,No,97
+Male,Bachelors,13,85,84,Yes,Yes,88
+Male,High School,21,69,69,Yes,Yes,82
+Male,PhD,18,86,61,Yes,Yes,97
+Female,High School,9,100,46,Yes,Yes,76
+Female,Masters,16,89,82,Yes,Yes,87
+Male,Bachelors,0,84,76,No,No,75
+Male,Bachelors,19,95,55,Yes,Yes,83
+Male,Intermediate,17,87,61,Yes,No,76
+Male,High School,20,87,62,Yes,Yes,99
+Female,High School,23,74,47,Yes,No,71
+Male,High School,17,87,57,Yes,No,71
+Female,High School,16,95,52,Yes,Yes,61
+Female,Bachelors,7,76,63,Yes,Yes,87
+Female,Intermediate,9,99,58,Yes,Yes,69
+Female,None,24,84,45,No,Yes,53
+Male,PhD,26,76,100,Yes,No,100
+Female,Masters,13,94,88,Yes,No,100
+Male,Masters,15,82,58,Yes,Yes,92
+Male,PhD,7,92,74,Yes,Yes,93
+Female,High School,24,82,76,Yes,Yes,89
+Female,Intermediate,20,84,87,No,No,75
+Male,Bachelors,30,89,57,No,Yes,84
+Female,Bachelors,7,87,86,Yes,Yes,91
+Female,High School,11,65,61,No,No,62
+Female,Masters,16,73,49,Yes,No,84
+Female,High School,20,94,80,Yes,Yes,93
+Male,High School,13,83,89,Yes,No,80
+Male,Intermediate,8,79,100,No,Yes,84
+Male,Intermediate,22,71,52,Yes,Yes,75
+Male,Intermediate,20,74,80,Yes,No,76
+Male,None,7,64,63,Yes,No,55
+Female,Masters,25,83,81,Yes,Yes,100
+Male,High School,24,79,47,Yes,Yes,81
+Male,High School,16,75,51,No,Yes,59
+Male,Masters,15,84,58,Yes,Yes,78
+Male,PhD,19,88,71,Yes,Yes,99
+Female,Masters,8,100,60,No,Yes,79
+Female,Masters,15,69,79,Yes,Yes,92
+Female,Bachelors,0,96,85,No,No,82
+Female,Intermediate,22,94,78,Yes,No,97
+Male,None,2,77,94,Yes,No,67
+Male,Intermediate,27,87,76,Yes,Yes,89
+Female,Intermediate,12,80,51,No,No,52
+Male,High School,13,86,90,Yes,No,89
+Female,Bachelors,9,100,60,Yes,No,92
+Female,Intermediate,12,91,83,Yes,No,83
+Female,None,26,90,93,Yes,No,88
+Female,High School,0,80,76,Yes,Yes,82
+Male,Bachelors,25,70,47,Yes,Yes,84
+Female,None,17,82,56,No,No,60
+Male,Masters,5,97,89,Yes,No,86
+Male,Intermediate,6,69,67,Yes,No,73
+Female,Intermediate,28,74,71,Yes,Yes,81
+Male,Intermediate,7,86,81,No,Yes,65
+Male,Masters,5,75,80,Yes,Yes,85
+Female,High School,24,77,74,Yes,No,77
+Female,Bachelors,17,80,66,Yes,Yes,85
+Female,Intermediate,7,71,65,Yes,Yes,62
+Female,High School,16,75,82,Yes,Yes,89
+Female,Masters,6,92,78,Yes,Yes,100
+Male,Bachelors,23,71,66,Yes,No,70
+Male,Bachelors,23,69,86,Yes,No,98
+Female,Masters,19,78,68,Yes,No,83
+Female,Masters,17,92,57,Yes,Yes,96
+Male,Bachelors,29,83,58,Yes,No,88
+Female,Masters,14,80,55,Yes,Yes,84
+Female,Bachelors,5,85,65,Yes,No,76
+Female,Bachelors,18,67,88,Yes,Yes,100
+Male,Bachelors,31,89,57,Yes,Yes,85
+Female,Bachelors,6,88,72,Yes,No,86
+Male,High School,12,80,60,Yes,No,77
+Male,Masters,18,95,66,Yes,Yes,100
+Female,Masters,14,73,47,Yes,No,92
+Male,None,7,96,66,Yes,Yes,68
+Female,Masters,23,86,67,Yes,Yes,100
+Male,High School,33,81,78,Yes,Yes,92
+Male,High School,16,84,73,Yes,Yes,90
+Male,Bachelors,7,83,52,Yes,Yes,75
+Female,High School,2,97,86,Yes,Yes,79
+Male,Masters,17,74,73,No,Yes,90
+Female,Masters,23,77,72,Yes,No,89
+Female,Intermediate,18,95,69,Yes,Yes,78
+Female,None,14,79,62,Yes,No,63
+Male,High School,10,94,73,Yes,Yes,85
+Male,Bachelors,6,100,77,Yes,No,97
+Female,PhD,21,80,43,Yes,Yes,87
+Male,Bachelors,22,91,61,Yes,Yes,100
+Female,High School,2,73,66,No,Yes,47
+Male,Bachelors,27,92,73,Yes,Yes,95
+Female,Intermediate,19,86,87,Yes,Yes,90
+Male,Bachelors,26,89,58,Yes,No,87
+Female,High School,4,78,62,Yes,No,66
+Male,Bachelors,4,68,62,Yes,No,75
+Female,Intermediate,13,90,57,Yes,No,72
+Female,PhD,19,64,64,Yes,Yes,90
+Female,High School,29,81,81,Yes,Yes,91
+Male,Bachelors,20,94,54,Yes,Yes,81
+Male,Masters,13,86,76,Yes,Yes,93
+Female,High School,6,100,44,Yes,Yes,68
+Male,Masters,24,95,61,No,Yes,86
+Male,Bachelors,7,78,65,No,Yes,69
+Male,None,28,85,95,Yes,Yes,93
+Male,High School,12,84,65,Yes,No,70
+Female,Bachelors,27,69,36,Yes,No,83
+Female,None,20,75,40,Yes,Yes,55
+Male,Intermediate,13,79,70,No,No,62
+Male,High School,10,64,79,Yes,No,91
+Male,Bachelors,12,85,75,Yes,Yes,81
+Female,None,18,82,72,Yes,Yes,67
+Female,Masters,15,68,87,Yes,Yes,99
+Male,PhD,10,89,61,Yes,No,72
+Male,PhD,13,92,83,No,No,86
+Male,Bachelors,15,87,45,Yes,Yes,94
+Male,High School,0,81,56,Yes,Yes,53
+Male,Bachelors,18,90,42,No,Yes,56
+Female,None,7,91,65,Yes,Yes,60
+Female,None,5,88,69,Yes,Yes,76
+Male,High School,1,76,71,Yes,No,74
+Male,Intermediate,0,87,70,Yes,No,68
+Female,Bachelors,4,96,56,No,No,71
+Female,Bachelors,9,79,67,Yes,No,88
+Male,Intermediate,30,100,47,No,No,87
+Female,High School,10,79,90,Yes,Yes,81
+Female,PhD,16,85,65,No,No,64
+Male,Intermediate,18,78,62,Yes,Yes,74
+Male,Intermediate,16,87,93,Yes,No,87
+Male,High School,14,67,51,Yes,Yes,65
+Female,Bachelors,5,79,53,No,No,59
+Male,Bachelors,26,74,53,Yes,Yes,92
+Female,High School,29,86,68,Yes,Yes,97
+Female,None,1,94,76,Yes,Yes,70
+Male,Bachelors,6,91,81,Yes,Yes,96
+Male,Bachelors,12,61,100,No,No,81
+Male,High School,7,100,36,Yes,No,64
+Male,PhD,19,87,79,Yes,Yes,100
+Male,High School,9,77,61,Yes,Yes,71
+Female,Intermediate,32,86,61,Yes,Yes,100
+Female,Masters,24,86,60,Yes,Yes,84
+Female,Intermediate,16,78,56,Yes,Yes,72
+Female,Bachelors,23,86,95,Yes,No,99
+Male,Intermediate,23,78,82,Yes,Yes,94
+Female,High School,10,80,70,Yes,Yes,84
+Male,PhD,8,78,90,Yes,Yes,97
+Male,Intermediate,15,70,47,Yes,Yes,59
+Male,Masters,21,86,50,Yes,Yes,94
+Male,High School,16,90,37,Yes,No,71
+Male,High School,2,90,59,No,Yes,46
+Female,None,8,93,72,No,Yes,64
+Female,Bachelors,14,88,71,Yes,Yes,78
+Male,Intermediate,14,79,72,Yes,Yes,77
+Female,Masters,30,93,48,No,Yes,78
+Female,Intermediate,3,71,82,Yes,No,79
+Male,PhD,19,75,73,Yes,No,93
+Female,High School,26,75,80,Yes,Yes,79
+Male,Masters,33,95,41,Yes,Yes,100
+Male,Bachelors,11,94,74,Yes,Yes,80
+Male,Bachelors,18,89,52,Yes,Yes,86
+Female,Masters,19,95,64,No,No,76
+Female,Bachelors,16,76,78,No,No,74
+Male,Bachelors,14,88,71,Yes,Yes,92
+Female,High School,18,83,57,Yes,Yes,80
+Male,None,0,93,70,Yes,Yes,78
+Male,Masters,20,83,47,Yes,No,82
+Male,Bachelors,16,81,87,Yes,No,93
+Female,Bachelors,13,90,66,Yes,Yes,84
+Female,Intermediate,31,93,86,No,Yes,93
+Male,High School,9,78,62,Yes,No,71
+Female,High School,11,84,62,Yes,Yes,73
+Female,Bachelors,30,74,58,No,Yes,66
+Male,Intermediate,8,60,83,Yes,Yes,79
+Male,High School,10,87,59,Yes,No,73
+Male,Intermediate,13,91,79,Yes,Yes,82
+Male,None,21,87,64,Yes,Yes,68
+Female,Intermediate,16,65,40,Yes,No,73
+Male,High School,4,81,61,Yes,Yes,72
+Male,Bachelors,10,62,52,Yes,Yes,69
+Female,High School,10,98,70,No,Yes,63
+Male,Intermediate,14,74,52,Yes,Yes,66
+Male,None,18,97,83,Yes,No,92
+Male,None,18,94,68,Yes,Yes,80
+Male,Intermediate,0,75,67,Yes,Yes,66
+Male,Intermediate,23,73,79,Yes,Yes,91
+Female,Bachelors,17,88,84,Yes,No,87
+Female,High School,26,76,69,Yes,No,91
+Male,Bachelors,18,86,58,Yes,Yes,95
+Male,Masters,23,80,43,Yes,Yes,81
+Male,Bachelors,18,67,59,Yes,No,73
+Male,None,25,62,60,Yes,Yes,52
+Male,Intermediate,19,87,71,No,No,63
+Male,High School,14,79,64,Yes,No,63
+Male,High School,33,79,80,Yes,No,91
+Male,PhD,22,91,60,Yes,Yes,95
+Male,High School,19,96,69,Yes,Yes,76
+Male,Intermediate,4,82,87,Yes,No,77
+Male,Bachelors,4,81,75,Yes,Yes,86
+Female,Bachelors,17,90,69,Yes,Yes,94
+Female,Intermediate,16,71,60,Yes,No,59
+Female,None,10,87,60,Yes,No,65
+Male,High School,16,90,57,Yes,Yes,67
+Female,Intermediate,27,91,61,Yes,Yes,95
+Female,None,20,65,81,No,Yes,72
+Male,Intermediate,5,77,66,Yes,No,64
+Female,None,14,76,49,Yes,No,55
+Male,None,8,85,96,Yes,Yes,78
+Female,Intermediate,11,89,74,Yes,Yes,68
+Female,High School,11,99,48,Yes,No,72
+Male,Intermediate,11,80,63,Yes,Yes,74
+Female,Bachelors,4,80,71,Yes,Yes,87
+Female,Masters,13,96,95,Yes,No,93
+Male,High School,10,87,53,Yes,Yes,66
+Male,High School,0,97,84,Yes,No,67
+Female,High School,31,87,90,Yes,Yes,91
+Male,Bachelors,23,73,60,Yes,Yes,77
+Female,Bachelors,11,71,65,Yes,No,83
+Female,None,15,69,54,Yes,Yes,59
+Male,Masters,5,91,66,Yes,No,84
+Male,None,28,96,69,Yes,Yes,83
+Male,Intermediate,30,100,79,Yes,Yes,91
+Male,Bachelors,16,93,86,No,Yes,86
+Male,Masters,23,96,58,Yes,Yes,99
+Male,Bachelors,16,79,40,Yes,Yes,66
+Female,Masters,4,73,69,Yes,Yes,87
+Male,High School,11,93,74,Yes,Yes,76
+Female,Masters,16,89,73,Yes,Yes,92
+Female,None,11,86,65,Yes,No,72
+Female,Masters,13,88,71,No,No,74
+Female,Intermediate,14,88,92,Yes,No,89
+Male,Masters,14,97,75,Yes,Yes,95
+Male,Intermediate,15,97,64,No,Yes,75
+Male,Bachelors,6,90,62,Yes,No,61
+Female,Intermediate,9,93,67,Yes,Yes,68
+Female,Bachelors,4,90,94,Yes,Yes,97
+Female,None,22,80,67,Yes,No,81
+Female,None,0,92,69,Yes,No,58
+Male,High School,24,71,62,No,Yes,66
+Male,High School,26,95,86,Yes,Yes,98
+Male,Masters,12,73,99,Yes,No,100
+Female,High School,0,87,76,Yes,Yes,60
+Male,PhD,12,76,71,Yes,No,82
+Male,High School,14,90,70,No,No,66
+Male,High School,6,84,34,Yes,No,62
+Male,Bachelors,10,69,81,Yes,Yes,100
+Female,Bachelors,27,89,72,Yes,Yes,96
+Female,Intermediate,20,79,76,Yes,No,74
+Female,Intermediate,7,93,59,Yes,No,76
+Male,Bachelors,2,85,64,Yes,No,84
+Female,High School,12,88,63,Yes,Yes,77
+Female,PhD,13,75,85,Yes,Yes,90
+Female,PhD,18,79,64,Yes,No,96
+Female,Bachelors,10,80,100,Yes,No,97
+Male,High School,19,93,76,Yes,No,77
+Male,Bachelors,30,100,50,Yes,No,93
+Female,None,21,76,68,Yes,Yes,82
+Female,None,14,95,60,Yes,No,79
+Female,High School,13,63,37,Yes,No,56
+Female,Intermediate,12,73,93,Yes,Yes,84
+Female,Masters,24,75,80,Yes,No,100
+Female,Bachelors,9,71,77,Yes,Yes,75
+Female,Bachelors,15,69,72,No,Yes,77
+Male,Intermediate,15,89,49,Yes,No,63
+Male,High School,10,82,62,Yes,Yes,80
+Female,Intermediate,4,88,82,Yes,Yes,80
+Female,PhD,17,91,54,Yes,Yes,100
+Male,None,14,87,32,Yes,Yes,63
+Male,Masters,19,91,66,Yes,Yes,86
+Male,Intermediate,10,84,67,No,Yes,78
+Male,Intermediate,24,73,72,Yes,No,93
+Female,Bachelors,7,95,80,No,Yes,86
+Female,Intermediate,28,79,79,Yes,Yes,87
+Male,Masters,1,75,73,Yes,Yes,80
+Female,Masters,18,83,87,No,No,88
+Male,Intermediate,18,75,47,Yes,Yes,68
+Male,High School,8,80,77,Yes,No,86
+Male,Intermediate,18,88,79,Yes,No,87
+Female,Masters,25,88,51,Yes,No,69
+Male,High School,0,76,47,Yes,Yes,61
+Female,Bachelors,19,80,58,Yes,No,79
+Male,Bachelors,0,95,60,Yes,Yes,77
+Male,Bachelors,7,89,81,Yes,No,83
+Female,High School,28,100,60,Yes,No,91
+Male,Bachelors,10,96,57,Yes,Yes,91
+Male,Masters,5,96,60,Yes,Yes,87
+Female,High School,13,71,86,Yes,Yes,79
+Female,High School,31,92,70,Yes,No,88
+Female,PhD,0,84,67,Yes,Yes,85
+Female,High School,6,79,68,Yes,Yes,66
+Female,Masters,26,86,89,Yes,Yes,100
+Male,Intermediate,29,94,58,Yes,No,90
+Female,High School,14,90,89,Yes,No,96
+Female,Masters,5,76,73,Yes,No,90
+Male,Intermediate,31,92,67,Yes,No,86
+Female,Intermediate,27,78,100,Yes,Yes,100
+Male,Intermediate,20,87,54,Yes,Yes,74
+Female,Intermediate,8,81,64,Yes,No,77
+Female,High School,14,82,51,Yes,Yes,67
+Male,Intermediate,13,92,84,No,Yes,72
+Male,PhD,17,74,95,No,Yes,95
+Male,High School,26,100,95,Yes,Yes,82
+Male,Bachelors,22,66,88,Yes,Yes,81
+Male,High School,6,79,67,Yes,No,67
+Female,Bachelors,26,88,64,Yes,Yes,94
+Female,High School,17,90,44,Yes,Yes,70
+Male,PhD,20,83,100,Yes,Yes,98
+Male,Intermediate,26,84,77,Yes,No,83
+Male,High School,6,89,62,Yes,Yes,75
+Female,None,14,82,89,Yes,No,82
+Female,High School,10,98,55,Yes,No,72
+Male,Intermediate,2,93,76,Yes,Yes,88
+Female,High School,17,93,67,No,No,72
+Male,Masters,35,75,79,Yes,No,96
+Male,Intermediate,0,84,69,Yes,No,68
+Female,High School,14,81,48,Yes,No,57
+Male,Bachelors,20,74,71,Yes,Yes,87
+Male,Bachelors,15,88,85,Yes,Yes,100
+Female,High School,14,79,69,Yes,Yes,82
+Male,High School,4,91,81,Yes,Yes,89
+Male,None,16,74,54,Yes,No,61
+Male,Bachelors,8,100,69,Yes,Yes,97
+Female,Bachelors,0,76,60,Yes,No,68
+Male,Intermediate,24,87,81,Yes,No,100
+Female,Masters,22,92,70,Yes,No,95
+Female,Masters,15,79,80,Yes,No,96
+Male,Intermediate,16,93,86,No,Yes,93
+Female,Masters,23,72,80,Yes,Yes,96
+Female,High School,16,99,74,Yes,Yes,88
+Male,High School,22,85,55,Yes,Yes,87
+Male,High School,12,79,69,Yes,Yes,75
+Male,None,25,82,62,Yes,Yes,68
+Male,Intermediate,17,93,64,Yes,No,96
+Female,Masters,16,79,64,No,Yes,75
+Female,None,4,77,55,Yes,Yes,61
+Female,High School,17,82,40,Yes,No,73
+Male,Intermediate,8,73,59,Yes,Yes,67
+Male,Masters,9,100,72,Yes,Yes,87
+Male,High School,8,79,49,Yes,No,64
+Male,Intermediate,6,93,70,Yes,No,64
+Female,None,31,87,98,Yes,No,91
+Female,High School,25,75,85,Yes,Yes,91
+Female,PhD,30,84,94,Yes,No,100
+Male,PhD,5,92,75,No,No,69
+Female,None,15,83,87,Yes,Yes,92
+Male,PhD,4,96,59,No,No,75
+Female,Bachelors,9,95,60,Yes,No,90
+Female,Masters,7,94,28,No,Yes,61
+Female,Intermediate,24,80,87,Yes,Yes,88
+Male,Intermediate,11,74,93,Yes,No,85
+Male,Intermediate,23,78,61,No,No,68
+Female,Bachelors,19,86,66,Yes,Yes,81
+Female,High School,33,90,58,No,No,85
+Male,None,3,63,75,Yes,Yes,59
+Female,High School,25,84,86,Yes,Yes,79
+Male,Bachelors,24,86,43,Yes,Yes,92
+Male,High School,7,82,76,Yes,No,70
+Female,Bachelors,23,97,65,Yes,No,87
+Female,PhD,17,89,71,Yes,Yes,85
+Male,None,13,98,76,Yes,Yes,92
+Female,Bachelors,8,82,67,Yes,Yes,73
+Female,Intermediate,9,94,68,Yes,No,79
+Male,Masters,31,100,66,Yes,No,100
+Male,High School,15,98,84,Yes,No,89
+Male,Bachelors,21,74,76,Yes,No,87
+Male,Masters,8,82,73,Yes,No,73
+Female,Masters,8,81,50,Yes,Yes,73
+Female,Bachelors,23,89,64,Yes,Yes,93
+Male,Intermediate,4,91,83,Yes,Yes,78
+Male,Bachelors,11,76,70,No,No,71
+Female,Masters,15,85,79,Yes,No,97
+Male,Intermediate,15,64,96,Yes,Yes,94
+Female,None,13,99,85,Yes,No,72
+Female,Masters,18,79,71,Yes,Yes,100
+Female,Bachelors,20,85,62,Yes,Yes,93
+Female,Bachelors,20,81,31,Yes,No,71
+Female,High School,7,96,67,Yes,No,82
+Female,Bachelors,12,56,65,Yes,No,89
+Female,Intermediate,24,84,75,No,Yes,70
+Male,Bachelors,22,83,67,No,Yes,79
+Male,High School,4,80,65,Yes,No,50
+Male,Bachelors,17,100,43,Yes,Yes,84
+Male,PhD,0,76,55,Yes,Yes,80
+Female,None,15,92,77,Yes,No,77
+Female,PhD,30,88,95,Yes,Yes,100
+Male,Intermediate,7,97,68,Yes,No,64
+Female,Masters,8,78,74,Yes,No,87
+Male,Bachelors,21,77,84,Yes,Yes,100
+Female,Intermediate,2,95,57,Yes,Yes,69
+Male,Bachelors,9,89,75,No,No,78
+Female,Masters,19,69,58,No,No,61
+Male,Intermediate,9,79,82,Yes,No,83
+Male,High School,13,88,72,Yes,No,75
+Male,Bachelors,20,93,74,No,No,77
+Female,Masters,18,78,58,Yes,No,79
+Male,Bachelors,17,55,80,Yes,Yes,81
+Male,Bachelors,12,90,100,Yes,Yes,100
+Male,Intermediate,17,72,54,Yes,Yes,65
+Male,Masters,14,64,64,Yes,Yes,80
+Male,High School,18,56,73,No,Yes,64
+Female,Intermediate,11,93,81,No,Yes,70
+Male,None,13,86,61,Yes,No,80
+Male,High School,7,82,27,Yes,Yes,51
+Male,Intermediate,14,98,90,No,Yes,80
+Female,Intermediate,8,91,81,Yes,Yes,78
+Female,Bachelors,6,100,43,No,Yes,79
+Male,Intermediate,17,71,60,Yes,Yes,80
+Male,Intermediate,16,84,93,Yes,Yes,86
+Female,High School,21,68,91,Yes,Yes,95
+Male,Intermediate,11,82,84,Yes,No,84
+Female,High School,18,82,67,Yes,No,79
+Female,None,19,91,71,Yes,No,74
+Female,Bachelors,18,85,68,Yes,No,81
+Female,Bachelors,8,91,86,Yes,Yes,94
+Male,Bachelors,16,92,56,Yes,No,78
+Female,Intermediate,17,100,57,No,No,83
+Male,Intermediate,15,81,85,No,Yes,69
+Male,Masters,0,75,69,Yes,No,87
+Male,Intermediate,16,87,90,Yes,Yes,91
+Male,Intermediate,32,76,59,Yes,No,85
+Female,None,12,99,69,Yes,No,80
+Male,High School,9,82,56,No,Yes,55
+Male,Intermediate,17,79,70,Yes,No,85
+Female,Intermediate,17,80,47,Yes,No,52
+Male,Intermediate,24,92,62,No,No,69
+Male,Intermediate,4,83,48,Yes,Yes,61
+Male,Bachelors,20,78,80,Yes,No,81
+Male,Bachelors,19,100,80,No,Yes,87
+Male,Masters,13,76,44,Yes,Yes,80
+Female,Bachelors,17,85,90,No,Yes,92
+Male,PhD,23,91,100,Yes,No,100
+Male,None,21,68,70,Yes,No,66
+Female,High School,5,89,60,Yes,No,71
+Female,None,21,74,100,No,No,75
+Female,Bachelors,14,93,50,Yes,Yes,88
+Male,Masters,15,75,70,Yes,Yes,94
+Male,High School,15,91,72,Yes,Yes,83
+Female,Masters,13,96,90,Yes,Yes,96
+Male,None,24,93,75,Yes,Yes,80
+Female,Masters,14,87,62,Yes,Yes,85
+Male,Intermediate,6,82,55,Yes,Yes,68
+Male,High School,11,79,64,Yes,Yes,75
+Male,Intermediate,16,99,54,Yes,Yes,86
+Female,High School,24,78,70,Yes,Yes,83
+Female,High School,19,74,61,Yes,No,73
+Female,High School,8,91,47,No,No,56
+Female,Masters,34,77,88,Yes,No,100
+Male,Intermediate,17,75,62,No,Yes,62
+Male,High School,25,70,50,Yes,Yes,61
+Male,Bachelors,13,80,67,Yes,No,76
+Male,Bachelors,19,84,71,Yes,Yes,94
+Male,High School,21,87,43,Yes,Yes,68
+Male,Intermediate,24,94,74,Yes,Yes,91
+Male,High School,23,90,54,Yes,Yes,83
+Male,High School,21,83,95,Yes,Yes,97
+Female,Bachelors,12,83,77,Yes,Yes,81
+Female,High School,10,90,64,Yes,No,80
+Female,Intermediate,17,97,58,Yes,Yes,91
+Male,Bachelors,22,86,68,Yes,Yes,84
+Male,High School,13,80,79,Yes,No,72
+Female,Intermediate,23,75,69,Yes,Yes,93
+Male,High School,26,70,66,Yes,Yes,79
+Male,PhD,7,91,70,Yes,No,73
+Female,Intermediate,8,90,60,Yes,Yes,67
+Female,Masters,13,90,64,Yes,Yes,88
+Male,Intermediate,17,83,38,Yes,Yes,63
+Male,None,10,99,84,Yes,Yes,79
+Male,Bachelors,25,80,74,Yes,Yes,94
+Male,PhD,18,94,58,Yes,No,100
+Male,Bachelors,15,84,98,Yes,Yes,97
+Male,Masters,3,78,71,Yes,Yes,91
+Male,Masters,4,90,54,No,Yes,81
+Male,High School,17,89,82,Yes,Yes,97
+Female,High School,0,88,75,No,No,63
+Female,Bachelors,23,85,75,Yes,Yes,81
+Female,Intermediate,13,84,63,Yes,Yes,82
+Male,Masters,40,100,76,Yes,Yes,100
+Male,Masters,33,96,66,Yes,Yes,100
+Male,Intermediate,13,92,78,Yes,Yes,99
+Female,High School,14,86,41,Yes,No,71
+Female,Bachelors,22,95,63,Yes,Yes,96
+Female,High School,28,90,95,Yes,Yes,100
+Female,Masters,1,85,58,Yes,Yes,81
+Male,Intermediate,0,81,60,Yes,No,48
+Female,Bachelors,10,84,63,Yes,Yes,78
+Female,None,19,53,51,Yes,No,66
+Male,Bachelors,18,87,36,Yes,No,68
+Female,Intermediate,23,80,66,No,No,70
+Male,Intermediate,5,100,72,Yes,Yes,75
+Male,High School,0,85,69,No,Yes,73
+Female,Bachelors,21,73,67,Yes,No,96
+Male,Masters,8,84,70,Yes,No,78
+Male,High School,0,74,85,Yes,No,72
+Male,None,16,89,67,Yes,Yes,71
+Female,None,21,87,61,No,Yes,70
+Male,Bachelors,14,94,65,Yes,Yes,92
+Female,Bachelors,11,77,78,Yes,No,89
+Female,Intermediate,13,85,91,Yes,Yes,93
+Female,High School,12,71,60,Yes,Yes,91
+Male,Intermediate,4,92,71,No,No,59
+Female,Intermediate,9,90,75,Yes,Yes,71
+Female,Intermediate,19,89,55,Yes,No,75
+Male,PhD,17,85,70,Yes,Yes,85
+Female,High School,16,89,48,Yes,Yes,63
+Female,Bachelors,7,100,43,Yes,Yes,70
+Female,Intermediate,13,82,75,Yes,No,73
+Female,Intermediate,0,86,64,Yes,Yes,65
+Female,Bachelors,16,74,73,Yes,Yes,90
+Female,Bachelors,26,76,69,Yes,No,85
+Male,PhD,3,85,55,Yes,Yes,81
+Female,High School,10,96,69,Yes,Yes,86
+Female,High School,17,82,51,Yes,Yes,67
+Male,Bachelors,25,82,90,Yes,Yes,99
+Female,Intermediate,11,80,49,Yes,No,70
+Male,High School,9,79,67,Yes,Yes,60
+Female,None,0,87,54,Yes,Yes,44
+Female,None,15,70,78,Yes,Yes,76
+Female,Masters,31,97,65,Yes,No,100
+Female,High School,17,78,62,Yes,Yes,90
+Female,High School,14,92,82,Yes,Yes,87
+Female,High School,17,72,70,Yes,Yes,83
+Female,Intermediate,14,91,77,Yes,Yes,86
+Female,None,8,91,55,Yes,Yes,69
+Female,Intermediate,21,88,48,Yes,Yes,90
+Female,None,16,75,71,Yes,No,55
+Female,Masters,15,87,65,Yes,Yes,93
+Male,High School,7,73,79,Yes,No,87
+Male,Intermediate,25,82,68,Yes,No,86
+Female,Masters,20,95,73,Yes,Yes,100
+Male,Bachelors,10,92,45,Yes,Yes,73
+Male,Intermediate,23,85,98,Yes,Yes,99
+Female,High School,11,75,67,Yes,No,71
+Male,High School,8,91,80,Yes,Yes,66
+Male,Bachelors,8,85,57,Yes,Yes,70
+Female,PhD,0,61,74,Yes,Yes,73
+Female,Bachelors,18,92,50,Yes,No,87
+Male,Intermediate,0,84,76,Yes,No,79
+Male,Bachelors,5,97,64,Yes,Yes,85
+Female,Intermediate,0,74,70,Yes,No,73
+Female,None,14,53,80,No,Yes,58
+Female,Intermediate,13,87,51,Yes,Yes,83
+Female,PhD,12,87,59,No,No,76
+Male,High School,6,68,76,Yes,Yes,72
+Female,Bachelors,5,75,100,No,Yes,79
+Female,High School,18,100,67,Yes,Yes,90
+Male,Intermediate,10,81,78,Yes,No,76
+Female,None,17,92,68,Yes,No,81
+Female,Intermediate,7,78,99,Yes,No,77
+Male,Bachelors,16,64,43,Yes,No,61
+Male,High School,25,83,71,Yes,Yes,91
+Male,Bachelors,19,82,45,Yes,Yes,79
+Male,Bachelors,11,81,32,Yes,Yes,66
+Female,Masters,17,83,74,Yes,Yes,100
+Female,High School,13,87,72,Yes,Yes,76
+Male,Intermediate,15,83,65,No,No,66
+Female,High School,12,72,68,Yes,Yes,83
+Female,PhD,13,89,100,No,Yes,100
+Female,Masters,16,65,66,Yes,Yes,96
+Female,Intermediate,7,64,77,Yes,Yes,73
+Female,Masters,6,92,60,Yes,No,90
+Female,Intermediate,3,90,74,Yes,Yes,72
+Female,Bachelors,2,84,66,Yes,Yes,72
+Female,None,5,71,63,Yes,No,43
+Male,Bachelors,16,77,97,Yes,Yes,100
+Male,High School,7,82,87,No,Yes,65
+Male,Masters,19,69,72,Yes,Yes,90
+Male,Bachelors,15,77,35,Yes,Yes,65
+Female,Bachelors,0,91,64,Yes,No,80
+Female,None,20,99,100,Yes,No,89
+Male,High School,21,80,66,Yes,Yes,71
+Male,High School,7,92,86,Yes,No,84
+Male,Intermediate,18,65,91,Yes,Yes,77
+Female,None,8,91,73,Yes,Yes,68
+Female,Masters,15,76,57,Yes,Yes,69
+Female,Intermediate,4,88,33,Yes,Yes,53
+Female,High School,0,82,80,No,Yes,65
+Male,Intermediate,11,98,57,Yes,No,63
+Male,Intermediate,14,76,72,Yes,No,67
+Female,Bachelors,11,91,51,Yes,Yes,80
+Male,Intermediate,5,82,66,No,Yes,61
+Male,Masters,11,83,70,Yes,Yes,100
+Female,Intermediate,17,83,74,Yes,Yes,98
+Female,PhD,14,76,53,Yes,Yes,79
+Female,Masters,16,84,87,Yes,Yes,100
+Female,High School,9,84,61,Yes,No,75
+Female,Masters,24,87,44,Yes,Yes,83
+Female,High School,5,85,68,Yes,Yes,63
+Female,Masters,18,92,70,Yes,Yes,96
+Female,Intermediate,24,94,72,Yes,Yes,91
+Male,Masters,18,74,90,Yes,Yes,95
+Female,Masters,13,93,66,Yes,No,92
+Male,Masters,10,73,68,Yes,Yes,79
+Female,Bachelors,23,90,53,No,No,66
+Male,High School,3,91,82,Yes,Yes,80
+Female,None,7,65,72,Yes,Yes,68
+Female,Intermediate,11,85,63,Yes,Yes,70
+Male,High School,24,80,41,Yes,No,76
+Male,Bachelors,18,77,91,Yes,Yes,83
+Male,High School,7,98,51,Yes,No,64
+Female,PhD,12,78,61,Yes,Yes,86
+Female,Bachelors,10,76,75,Yes,No,77
+Male,Masters,9,85,52,Yes,Yes,77
+Male,High School,22,91,47,Yes,No,87
+Male,Masters,4,83,38,Yes,Yes,66
+Male,Masters,27,96,80,Yes,No,100
+Female,Intermediate,21,90,61,Yes,Yes,88
+Male,Bachelors,23,63,100,Yes,Yes,99
+Female,Bachelors,11,79,55,Yes,Yes,81
+Female,High School,13,79,56,Yes,No,86
+Female,Intermediate,3,89,61,Yes,Yes,66
+Male,Intermediate,10,58,73,Yes,No,62
+Female,High School,18,100,62,Yes,Yes,78
+Female,Intermediate,25,90,79,No,Yes,84
+Male,None,6,86,55,Yes,Yes,52
+Female,None,12,96,49,Yes,No,65
+Male,High School,13,100,43,Yes,No,81
+Female,PhD,3,93,36,Yes,No,75
+Female,Intermediate,19,94,62,Yes,Yes,83
+Male,PhD,9,86,65,Yes,No,82
+Female,Intermediate,13,83,60,No,No,70
+Female,High School,11,80,88,Yes,Yes,78
+Female,Intermediate,8,76,88,Yes,No,93
+Female,Intermediate,14,78,64,Yes,No,88
+Male,High School,13,71,43,Yes,No,63
+Female,Bachelors,12,84,61,Yes,No,79
+Male,High School,9,68,61,Yes,Yes,75
+Female,Bachelors,17,86,60,Yes,Yes,93
+Male,Bachelors,28,84,59,Yes,No,82
+Male,High School,16,86,60,Yes,Yes,73
+Male,None,22,79,64,Yes,No,63
+Female,Bachelors,3,100,60,Yes,No,81
+Female,Intermediate,16,98,73,Yes,No,90
+Female,None,6,72,75,Yes,No,55
+Male,PhD,3,87,56,Yes,Yes,80
+Male,None,9,78,89,Yes,Yes,67
+Male,Bachelors,24,74,55,No,Yes,68
+Female,PhD,22,71,45,Yes,Yes,89
+Male,High School,16,89,75,Yes,Yes,79
+Male,High School,2,78,57,No,Yes,53
+Female,High School,13,94,74,Yes,No,69
+Female,High School,17,94,33,Yes,No,67
+Male,High School,16,98,90,Yes,Yes,92
+Male,Bachelors,0,76,80,Yes,Yes,75
+Male,None,7,89,47,Yes,No,58
+Female,Intermediate,14,91,47,Yes,Yes,76
+Male,PhD,19,80,95,Yes,Yes,100
+Female,Masters,0,77,58,Yes,Yes,65
+Female,Bachelors,13,100,57,Yes,Yes,99
+Female,High School,16,87,36,Yes,Yes,63
+Male,Bachelors,21,91,64,Yes,No,87
+Male,Intermediate,20,76,66,Yes,Yes,89
+Male,Intermediate,19,72,80,No,Yes,100
+Female,High School,8,79,49,No,Yes,47
+Male,Masters,0,83,47,Yes,Yes,76
+Female,Intermediate,11,74,76,No,No,62
+Male,High School,23,84,85,Yes,No,84
+Female,Intermediate,26,68,46,No,No,57
+Female,Intermediate,20,73,86,Yes,Yes,81
+Female,Masters,18,91,70,Yes,No,92
+Female,Bachelors,18,91,86,Yes,No,85
+Male,Bachelors,10,81,68,Yes,No,87
+Male,None,13,74,32,Yes,Yes,56
+Female,Intermediate,28,74,67,Yes,Yes,89
+Male,Intermediate,7,81,85,Yes,Yes,80
+Female,None,27,91,56,Yes,No,73
+Male,High School,12,94,64,Yes,Yes,81
+Male,Bachelors,25,80,67,Yes,Yes,83
+Male,High School,3,73,26,Yes,No,46
+Female,Intermediate,19,87,95,Yes,No,87
+Male,High School,9,76,56,Yes,No,59
+Male,None,3,79,77,Yes,Yes,54
+Female,High School,16,98,68,Yes,No,90
+Female,PhD,23,93,88,No,Yes,95
+Male,Masters,8,86,76,Yes,Yes,99
+Male,PhD,3,72,66,Yes,Yes,90
+Male,Intermediate,14,87,56,No,Yes,58
+Male,High School,14,95,81,Yes,Yes,79
+Male,Intermediate,19,81,41,Yes,No,88
+Female,Intermediate,22,98,79,Yes,Yes,100
+Female,Masters,14,97,53,Yes,No,85
+Female,None,29,100,88,Yes,Yes,97
+Male,Intermediate,16,88,72,Yes,Yes,81
+Female,High School,12,90,79,Yes,Yes,86
+Male,High School,2,99,71,No,Yes,62
+Male,Bachelors,12,89,43,Yes,Yes,62
+Male,Intermediate,12,79,57,Yes,Yes,65
+Female,Intermediate,22,80,80,Yes,Yes,90
+Male,Intermediate,18,87,72,Yes,Yes,78
+Female,Intermediate,5,72,87,Yes,Yes,79
+Male,Bachelors,16,83,76,Yes,No,80
+Female,Masters,20,95,55,Yes,Yes,87
+Female,PhD,27,63,58,Yes,No,94
+Male,Bachelors,22,100,71,Yes,No,96
+Female,High School,21,96,35,Yes,No,70
+Female,Bachelors,15,80,95,Yes,No,100
+Male,Intermediate,18,90,76,Yes,Yes,92
+Male,High School,24,85,88,Yes,No,100
+Male,Masters,4,97,46,Yes,No,73
+Male,None,12,94,88,Yes,Yes,80
+Male,Masters,8,70,100,Yes,Yes,86
+Female,Intermediate,18,90,50,No,Yes,65
+Female,Bachelors,24,82,81,Yes,No,100
+Female,Bachelors,10,85,70,No,No,81
+Male,Masters,0,77,46,Yes,Yes,78
+Male,Bachelors,11,100,77,No,Yes,70
+Female,Bachelors,22,95,82,Yes,Yes,100
+Female,None,19,77,60,No,Yes,48
+Male,Intermediate,18,71,87,No,No,81
+Female,High School,12,81,44,Yes,Yes,64
+Male,Bachelors,4,89,47,No,Yes,68
+Male,Intermediate,19,87,72,Yes,Yes,77
+Male,Bachelors,8,97,70,Yes,No,93
+Female,None,32,92,59,Yes,Yes,73
+Male,None,19,94,82,Yes,No,77
+Male,Bachelors,10,88,77,Yes,Yes,82
+Male,None,10,71,82,Yes,Yes,60
+Male,None,14,83,68,No,Yes,64
+Male,None,13,95,79,Yes,Yes,93
+Male,PhD,23,84,63,Yes,Yes,100
+Female,Bachelors,16,90,100,No,No,90
+Male,Intermediate,9,81,57,No,No,68
+Male,High School,30,74,100,No,No,86
+Female,High School,15,83,70,Yes,Yes,83
+Male,Bachelors,21,88,49,No,No,69
+Male,Bachelors,10,78,90,Yes,Yes,92
+Male,High School,17,82,71,Yes,Yes,84
+Female,High School,17,75,82,Yes,Yes,79
+Female,None,0,96,88,Yes,Yes,76
+Male,Bachelors,31,82,75,Yes,No,95
+Male,Bachelors,25,99,61,Yes,Yes,100
+Female,High School,11,100,84,Yes,Yes,80
+Male,None,6,84,70,Yes,No,66
+Male,None,17,74,80,Yes,Yes,90
+Male,PhD,15,64,37,Yes,Yes,84
+Male,High School,17,70,76,Yes,Yes,89
+Female,Bachelors,16,71,60,Yes,No,78
+Female,Bachelors,19,98,94,Yes,No,100
+Female,Intermediate,26,86,79,Yes,Yes,100
+Male,High School,19,88,73,No,Yes,85
+Female,High School,6,62,77,Yes,Yes,57
+Female,Bachelors,25,73,55,Yes,No,72
+Female,Bachelors,28,93,94,Yes,Yes,100
+Male,Bachelors,40,87,99,Yes,Yes,100
+Male,Intermediate,6,83,75,Yes,Yes,74
+Female,None,16,90,93,Yes,Yes,78
+Female,PhD,0,100,61,Yes,Yes,83
+Male,Bachelors,19,82,58,Yes,No,72
+Female,High School,10,85,70,Yes,Yes,92
+Female,PhD,30,86,76,Yes,Yes,100
+Female,Bachelors,8,100,64,Yes,No,82
+Female,Intermediate,1,64,78,Yes,No,73
+Female,Bachelors,11,91,74,Yes,Yes,96
+Female,Masters,0,83,55,Yes,Yes,83
+Female,Bachelors,21,90,77,No,Yes,93
+Male,High School,0,78,82,No,No,56
+Female,High School,15,84,72,Yes,Yes,78
+Male,Masters,0,92,87,Yes,No,94
+Male,High School,12,100,51,Yes,No,68
+Female,Intermediate,28,93,77,Yes,Yes,96
+Male,Intermediate,17,76,52,Yes,Yes,77
+Female,Intermediate,8,80,53,No,Yes,66
+Male,Bachelors,14,80,60,No,Yes,59
+Female,Masters,15,67,55,Yes,Yes,86
+Female,High School,18,81,61,Yes,No,72
+Female,High School,4,92,66,Yes,No,76
+Male,High School,19,72,82,Yes,Yes,89
+Male,Masters,0,95,65,Yes,No,92
+Male,Bachelors,9,89,46,Yes,Yes,85
+Female,High School,11,77,87,Yes,Yes,91
+Male,Masters,20,83,57,Yes,Yes,99
+Female,Masters,15,100,69,Yes,No,95
+Male,Masters,3,92,76,No,No,77
+Female,Masters,7,85,72,Yes,No,91
+Female,High School,16,82,86,Yes,Yes,91
+Female,Bachelors,14,85,77,Yes,Yes,88
+Female,Intermediate,10,79,57,Yes,Yes,76
+Male,Masters,11,63,100,Yes,Yes,95
+Female,Bachelors,20,100,72,Yes,No,87
+Male,Bachelors,10,86,67,No,No,80
+Female,Bachelors,14,88,84,Yes,No,91
+Male,High School,32,84,73,No,Yes,95
+Female,Intermediate,3,77,75,Yes,Yes,64
+Female,PhD,0,83,100,Yes,Yes,94
+Male,Masters,21,69,65,Yes,Yes,89
+Female,None,9,100,65,Yes,Yes,82
+Female,High School,12,72,71,Yes,No,74
+Male,High School,8,74,86,Yes,No,78
+Male,Bachelors,12,80,47,Yes,Yes,68
+Female,Masters,27,97,40,No,Yes,73
+Female,High School,21,85,61,No,Yes,72
+Male,Intermediate,21,72,45,No,Yes,53
+Female,Masters,3,97,63,Yes,No,79
+Female,Bachelors,5,92,77,Yes,Yes,90
+Female,Intermediate,0,90,56,Yes,Yes,63
+Male,Intermediate,8,92,48,Yes,Yes,83
+Male,Intermediate,22,100,71,Yes,No,98
+Female,High School,19,100,82,Yes,Yes,81
+Female,Intermediate,13,78,44,Yes,Yes,63
+Female,Bachelors,14,100,82,Yes,Yes,81
+Male,Masters,9,88,82,No,No,76
+Female,Bachelors,16,89,84,Yes,No,98
+Female,Bachelors,21,68,88,Yes,Yes,91
+Male,High School,2,83,100,Yes,No,84
+Female,Intermediate,17,76,64,No,No,55
+Male,None,22,93,71,Yes,No,85
+Female,High School,11,95,63,Yes,No,71
+Female,Bachelors,20,64,70,Yes,No,82
+Female,PhD,37,84,92,Yes,Yes,100
+Male,None,14,96,49,Yes,No,57
+Male,Intermediate,18,83,57,Yes,Yes,71
+Male,Masters,9,92,90,Yes,No,100
+Female,High School,16,88,85,Yes,Yes,90
+Male,Intermediate,18,88,64,Yes,No,88
+Female,Bachelors,16,82,82,No,No,82
+Female,Bachelors,6,72,75,Yes,Yes,82
+Male,High School,16,73,92,Yes,No,71
+Female,Intermediate,26,92,71,Yes,Yes,90
+Female,Bachelors,18,85,85,Yes,No,93
+Female,Intermediate,22,83,100,Yes,Yes,100
+Female,None,13,80,78,Yes,Yes,80
+Female,Bachelors,20,81,70,Yes,No,98
+Male,None,17,95,80,Yes,Yes,87
+Female,Bachelors,7,81,64,Yes,No,72
+Male,High School,17,71,100,Yes,Yes,90
+Male,PhD,7,92,72,No,Yes,85
+Female,Intermediate,9,82,65,Yes,Yes,70
+Female,High School,16,85,57,Yes,Yes,73
+Female,High School,17,100,86,Yes,Yes,91
+Male,High School,5,84,83,Yes,Yes,90
+Female,Masters,23,87,62,Yes,Yes,80
+Male,PhD,19,73,78,Yes,Yes,100
+Female,Intermediate,9,82,47,No,No,50
+Male,Intermediate,2,91,72,Yes,No,65
+Female,Bachelors,13,69,76,Yes,Yes,93
+Female,Masters,11,87,95,Yes,No,100
+Male,Intermediate,15,86,58,Yes,Yes,87
+Male,Intermediate,12,85,50,Yes,No,76
+Female,Intermediate,0,95,56,Yes,No,83
+Male,Bachelors,11,88,49,Yes,No,79
+Female,None,12,99,90,Yes,Yes,84
+Male,Bachelors,20,75,93,Yes,No,97
+Male,Intermediate,9,86,74,Yes,Yes,90
+Female,Bachelors,28,85,88,Yes,No,95
+Female,None,0,74,72,No,Yes,49
+Female,Intermediate,25,94,68,Yes,No,86
+Male,Intermediate,13,100,65,No,No,57
+Male,Bachelors,21,84,65,Yes,No,87
+Female,None,15,90,46,Yes,Yes,54
+Female,Intermediate,24,85,73,Yes,No,87
+Male,Intermediate,11,77,69,Yes,Yes,84
+Male,Intermediate,6,66,81,Yes,No,70
+Male,Bachelors,26,77,71,Yes,Yes,100
+Female,Bachelors,14,71,67,Yes,Yes,72
+Female,Masters,16,100,56,Yes,Yes,100
+Female,High School,24,83,71,Yes,Yes,90
+Male,Masters,6,81,81,Yes,Yes,78
+Female,Intermediate,19,93,52,No,Yes,90
+Male,None,10,73,71,Yes,Yes,68
+Female,None,13,77,73,Yes,No,63
+Male,High School,15,85,59,Yes,No,63
+Male,Bachelors,2,95,61,Yes,Yes,78
+Male,Bachelors,8,90,73,Yes,Yes,86
+Female,Bachelors,25,87,52,Yes,Yes,88
+Female,Intermediate,22,85,75,Yes,Yes,87
+Female,Intermediate,14,89,56,Yes,No,79
+Male,High School,16,87,85,Yes,No,81
+Male,High School,12,74,100,Yes,Yes,73
+Male,Intermediate,25,85,57,No,Yes,73
+Male,None,13,74,78,Yes,Yes,57
+Male,High School,16,85,59,Yes,No,76
+Female,Intermediate,24,80,85,Yes,No,83
+Male,Bachelors,8,100,51,Yes,Yes,82
+Female,PhD,27,84,77,No,Yes,100
+Female,Masters,2,70,56,Yes,No,64
+Male,Bachelors,28,83,66,Yes,No,98
+Female,Intermediate,12,90,54,No,Yes,63
+Female,Bachelors,13,100,82,Yes,Yes,100
+Male,Bachelors,0,79,57,Yes,Yes,69
+Female,High School,11,69,78,Yes,Yes,70
+Male,Intermediate,6,93,64,Yes,Yes,82
+Female,Masters,10,71,68,Yes,Yes,81
+Female,Intermediate,13,80,72,No,Yes,65
+Female,Intermediate,22,82,58,No,Yes,68
+Female,Intermediate,16,84,73,Yes,No,81
+Male,High School,17,91,92,Yes,Yes,100
+Female,Intermediate,6,78,58,Yes,Yes,57
+Male,High School,7,82,87,No,Yes,71
+Female,None,29,84,92,Yes,Yes,96
+Male,None,9,86,57,Yes,No,65
+Male,Masters,28,85,48,Yes,Yes,100
+Male,High School,13,89,74,Yes,Yes,81
+Female,Intermediate,15,93,61,Yes,No,78
+Female,High School,23,88,98,Yes,Yes,100
+Female,Masters,25,89,70,Yes,No,97
+Male,High School,14,69,57,Yes,Yes,67
+Female,Intermediate,11,85,52,Yes,Yes,77
+Female,Masters,14,89,86,Yes,Yes,94
+Male,Masters,17,92,61,No,Yes,77
+Female,High School,22,78,70,Yes,No,75
+Male,Masters,15,78,84,Yes,No,100
+Female,Intermediate,19,79,62,Yes,Yes,58
+Female,Intermediate,28,90,69,Yes,Yes,95
+Male,High School,18,95,69,Yes,No,82
+Female,None,17,80,80,No,No,54
+Male,Bachelors,2,94,78,Yes,Yes,88
+Female,Intermediate,0,86,66,Yes,Yes,76
+Female,Intermediate,18,83,70,Yes,Yes,88
+Male,Bachelors,14,82,64,No,No,53
+Male,Bachelors,10,92,47,Yes,Yes,87
+Male,High School,16,88,73,Yes,Yes,78
+Female,Bachelors,14,100,98,Yes,No,100
+Male,High School,24,76,56,Yes,Yes,82
+Female,Bachelors,15,90,58,Yes,Yes,79
+Female,Bachelors,9,79,56,No,Yes,72
+Male,PhD,22,76,80,Yes,Yes,98
+Female,None,13,84,76,Yes,Yes,61
+Male,None,19,86,67,Yes,Yes,85
+Female,High School,11,100,56,No,Yes,61

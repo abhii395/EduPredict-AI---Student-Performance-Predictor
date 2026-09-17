@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EduPredict AI — Student Performance Predictor</title>
+  <meta name="description" content="AI-powered student performance prediction using machine learning. Predict grades and get personalized study recommendations powered by Mistral AI." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+  <!-- Marked.js for markdown rendering -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+  <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════ NAV ═══════════════════════ -->
+<nav class="navbar" id="navbar">
+  <div class="nav-brand">
+    <div class="nav-logo">
+      <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="18" cy="18" r="18" fill="url(#grad1)"/>
+        <path d="M10 24L18 10L26 24" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M13 20H23" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+        <circle cx="18" cy="28" r="2" fill="white"/>
+        <defs>
+          <linearGradient id="grad1" x1="0" y1="0" x2="36" y2="36">
+            <stop offset="0%" stop-color="#6C63FF"/>
+            <stop offset="100%" stop-color="#43D8C9"/>
+          </linearGradient>
+        </defs>
+      </svg>
+    </div>
+    <span class="nav-title">EduPredict <span class="gradient-text">AI</span></span>
+  </div>
+  <div class="nav-links">
+    <a href="#" class="nav-link active" data-page="home" id="nav-home">Home</a>
+    <a href="#" class="nav-link" data-page="predict" id="nav-predict">Predict</a>
+    <a href="#" class="nav-link" data-page="analytics" id="nav-analytics">Analytics</a>
+  </div>
+  <div class="nav-status" id="nav-status">
+    <span class="status-dot loading"></span>
+    <span class="status-text">Connecting…</span>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════════════════════ PAGES ═══════════════════ -->
+<main class="main-content">
+
+  <!-- ───────────────── HOME PAGE ───────────────── -->
+  <section id="page-home" class="page active">
+
+    <!-- Hero -->
+    <div class="hero">
+      <div class="hero-bg">
+        <div class="hero-orb orb1"></div>
+        <div class="hero-orb orb2"></div>
+        <div class="hero-orb orb3"></div>
+      </div>
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          Powered by Machine Learning + Mistral AI
+        </div>
+        <h1 class="hero-title">
+          Predict Student<br/>
+          <span class="gradient-text">Performance</span> with AI
+        </h1>
+        <p class="hero-subtitle">
+          6 ML algorithms. Real Kaggle data. Personalized AI insights.<br/>
+          Understand what drives academic success.
+        </p>
+        <div class="hero-actions">
+          <button class="btn btn-primary" id="btn-start-predict" onclick="navigateTo('predict')">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            Start Predicting
+          </button>
+          <button class="btn btn-ghost" onclick="navigateTo('analytics')">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            View Analytics
+          </button>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="floating-card card-reg">
+          <div class="mini-label">Best Regressor</div>
+          <div class="mini-value" id="home-best-reg">—</div>
+          <div class="mini-metric" id="home-reg-r2">R² = loading…</div>
+        </div>
+        <div class="floating-card card-clf">
+          <div class="mini-label">Best Classifier</div>
+          <div class="mini-value" id="home-best-clf">—</div>
+          <div class="mini-metric" id="home-clf-acc">Acc = loading…</div>
+        </div>
+        <div class="floating-card card-data">
+          <div class="mini-label">Dataset</div>
+          <div class="mini-value" id="home-students">—</div>
+          <div class="mini-metric">Students · Kaggle</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Stats bar -->
+    <div class="stats-bar" id="stats-bar">
+      <div class="stat-item">
+        <div class="stat-number" id="stat-total">—</div>
+        <div class="stat-label">Students</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <div class="stat-number" id="stat-avg">—</div>
+        <div class="stat-label">Avg Score</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <div class="stat-number" id="stat-pass">—</div>
+        <div class="stat-label">Pass Rate</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <div class="stat-number">6</div>
+        <div class="stat-label">ML Models</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <div class="stat-number">2</div>
+        <div class="stat-label">Tasks (Reg + Clf)</div>
+      </div>
+    </div>
+
+    <!-- Feature cards -->
+    <div class="features-section">
+      <h2 class="section-title">Why <span class="gradient-text">EduPredict AI</span>?</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon icon-purple">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
+          </div>
+          <h3>Multi-Algorithm Ensemble</h3>
+          <p>Trains Linear, SVM, Random Forest, Gradient Boosting, and XGBoost — both regression and classification — then selects the best model automatically.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon icon-cyan">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          </div>
+          <h3>Mistral AI Insights</h3>
+          <p>Get personalized study recommendations powered by <strong>codestral-2508</strong> — tailored to your specific profile and predicted performance.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon icon-yellow">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+          </div>
+          <h3>Real Kaggle Data</h3>
+          <p>Trained on the "Students Performance in Exams" Kaggle dataset — 1,000 real student records with demographic and academic features.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon icon-pink">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          </div>
+          <h3>Rich Visualizations</h3>
+          <p>Interactive charts, feature importance plots, correlation heatmaps, and score distributions — all generated with Seaborn & Matplotlib.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Algorithm showcase -->
+    <div class="algo-section">
+      <h2 class="section-title">Models Under the Hood</h2>
+      <div class="algo-grid">
+        <div class="algo-pill">📈 Linear / Logistic</div>
+        <div class="algo-pill">🎯 SVM (SVR / SVC)</div>
+        <div class="algo-pill">🌲 Random Forest</div>
+        <div class="algo-pill">🔥 Gradient Boosting</div>
+        <div class="algo-pill">⚡ XGBoost</div>
+        <div class="algo-pill">🤖 Mistral codestral-2508</div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ───────────────── PREDICT PAGE ───────────────── -->
+  <section id="page-predict" class="page">
+    <div class="page-header">
+      <h1 class="page-title">Predict Performance</h1>
+      <p class="page-subtitle">Enter the student's profile below to get an instant prediction.</p>
+    </div>
+
+    <div class="predict-layout">
+
+      <!-- Form -->
+      <div class="predict-form-card glass-card">
+        <h2 class="card-title">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          Student Profile
+        </h2>
+
+        <form id="predict-form" onsubmit="handlePredict(event)">
+          <div class="form-grid">
+
+            <div class="form-group">
+              <label for="gender" class="form-label">Gender</label>
+              <select id="gender" name="gender" class="form-select" required>
+                <option value="">Select gender…</option>
+                <option value="Female">Female</option>
+                <option value="Male">Male</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="parental_education" class="form-label">Parental Level of Education</label>
+              <select id="parental_education" name="parental_education" class="form-select" required>
+                <option value="">Select education level…</option>
+                <option value="High School">High School</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Bachelors">Bachelors</option>
+                <option value="Masters">Masters</option>
+                <option value="PhD">PhD</option>
+                <option value="None">None</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="study_hours" class="form-label">Study Hours per Week</label>
+              <input type="number" id="study_hours" name="study_hours" min="0" max="80" placeholder="e.g. 15" class="form-select" required>
+            </div>
+
+            <div class="form-group">
+              <label for="attendance_rate" class="form-label">Attendance Rate (%)</label>
+              <input type="number" id="attendance_rate" name="attendance_rate" min="0" max="100" placeholder="e.g. 85" class="form-select" required>
+            </div>
+
+            <div class="form-group">
+              <label for="past_exam_score" class="form-label">Past Exam Score</label>
+              <input type="number" id="past_exam_score" name="past_exam_score" min="0" max="100" placeholder="e.g. 75" class="form-select" required>
+            </div>
+
+            <div class="form-group">
+              <label for="internet_access" class="form-label">Internet Access at Home</label>
+              <select id="internet_access" name="internet_access" class="form-select" required>
+                <option value="">Select...</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
+            </div>
+
+            <div class="form-group full-width">
+              <label for="extracurricular_activities" class="form-label">Extracurricular Activities</label>
+              <select id="extracurricular_activities" name="extracurricular_activities" class="form-select" required>
+                <option value="">Select...</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
+            </div>
+
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-full" id="predict-btn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            <span id="predict-btn-text">Run Prediction</span>
+          </button>
+        </form>
+      </div>
+
+      <!-- Results panel -->
+      <div class="predict-results" id="predict-results" style="display:none;">
+
+        <!-- Grade result -->
+        <div class="glass-card result-card" id="result-grade-card">
+          <div class="result-header">
+            <div class="result-grade-display">
+              <div class="grade-circle" id="grade-circle">
+                <span class="grade-number" id="result-grade">—</span>
+                <span class="grade-label">/ 100</span>
+              </div>
+              <div class="grade-meta">
+                <div class="letter-badge" id="letter-badge">—</div>
+                <div class="pass-badge" id="pass-badge">—</div>
+              </div>
+            </div>
+            <div class="result-stats">
+              <div class="rs-item">
+                <span class="rs-label">Pass Probability</span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar-fill" id="pass-prob-bar" style="width:0%"></div>
+                </div>
+                <span class="rs-value" id="pass-prob-val">—</span>
+              </div>
+              <div class="rs-item">
+                <span class="rs-label">Best Regressor</span>
+                <span class="rs-value rs-model" id="result-best-reg">—</span>
+              </div>
+              <div class="rs-item">
+                <span class="rs-label">Best Classifier</span>
+                <span class="rs-value rs-model" id="result-best-clf">—</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- All model predictions -->
+        <div class="glass-card" id="all-models-card">
+          <h3 class="card-title">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+            All Model Predictions
+          </h3>
+          <div class="models-table-wrap">
+            <table class="models-table" id="all-models-table">
+              <thead>
+                <tr>
+                  <th>Model</th>
+                  <th>Grade (Reg)</th>
+                  <th>Pass/Fail (Clf)</th>
+                </tr>
+              </thead>
+              <tbody id="models-tbody"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- AI Insights -->
+        <div class="glass-card insights-card" id="insights-card">
+          <h3 class="card-title">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            AI-Powered Insights
+            <span class="ai-badge">Mistral AI</span>
+          </h3>
+          <div id="insights-loading" class="insights-loading">
+            <div class="ai-spinner"></div>
+            <span>Generating personalized recommendations…</span>
+          </div>
+          <div id="insights-content" class="insights-content" style="display:none;"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────── ANALYTICS PAGE ───────────────── -->
+  <section id="page-analytics" class="page">
+    <div class="page-header">
+      <h1 class="page-title">Analytics & Model Comparison</h1>
+      <p class="page-subtitle">Explore dataset insights and compare all trained ML models.</p>
+    </div>
+
+    <!-- Metric tabs -->
+    <div class="tabs">
+      <button class="tab active" id="tab-regression" onclick="switchTab('regression')">📈 Regression Models</button>
+      <button class="tab" id="tab-classification" onclick="switchTab('classification')">🎯 Classification Models</button>
+      <button class="tab" id="tab-charts" onclick="switchTab('charts')">📊 EDA Charts</button>
+    </div>
+
+    <!-- Regression tab -->
+    <div id="tab-content-regression" class="tab-content active">
+      <div class="metrics-grid">
+        <div class="glass-card">
+          <h3 class="card-title">Regression Metrics</h3>
+          <div class="table-wrap">
+            <table class="metrics-table" id="reg-metrics-table">
+              <thead>
+                <tr><th>Model</th><th>R²</th><th>RMSE</th><th>MAE</th><th>CV R²</th><th>Rank</th></tr>
+              </thead>
+              <tbody id="reg-tbody"></tbody>
+            </table>
+          </div>
+        </div>
+        <div class="glass-card chart-card">
+          <h3 class="card-title">R² Score Comparison</h3>
+          <div class="chart-wrap"><canvas id="chart-reg-r2"></canvas></div>
+        </div>
+        <div class="glass-card chart-card">
+          <h3 class="card-title">RMSE Comparison</h3>
+          <div class="chart-wrap"><canvas id="chart-reg-rmse"></canvas></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Classification tab -->
+    <div id="tab-content-classification" class="tab-content">
+      <div class="metrics-grid">
+        <div class="glass-card">
+          <h3 class="card-title">Classification Metrics</h3>
+          <div class="table-wrap">
+            <table class="metrics-table" id="clf-metrics-table">
+              <thead>
+                <tr><th>Model</th><th>Accuracy</th><th>F1 Score</th><th>CV Acc</th><th>Rank</th></tr>
+              </thead>
+              <tbody id="clf-tbody"></tbody>
+            </table>
+          </div>
+        </div>
+        <div class="glass-card chart-card">
+          <h3 class="card-title">Accuracy Comparison</h3>
+          <div class="chart-wrap"><canvas id="chart-clf-acc"></canvas></div>
+        </div>
+        <div class="glass-card chart-card">
+          <h3 class="card-title">F1 Score Comparison</h3>
+          <div class="chart-wrap"><canvas id="chart-clf-f1"></canvas></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Charts tab -->
+    <div id="tab-content-charts" class="tab-content">
+      <div class="plots-grid" id="plots-grid">
+        <div class="loading-plots">
+          <div class="ai-spinner"></div>
+          <span>Loading charts…</span>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+</main>
+
+<!-- ═══════════════════════════════════════════ TOAST ════════════════════ -->
+<div class="toast-container" id="toast-container"></div>
+
+<script src="/static/js/app.js"></script>
+</body>
+</html>
