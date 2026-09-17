@@ -81,12 +81,23 @@ Train the regression and classification models (this will also generate the anal
 python train.py
 ```
 
-### 3. Start the Server
+### 3. Start the Server (Local)
 Launch the Flask backend:
 ```bash
 python app.py
 ```
 The application will be accessible at `http://localhost:5000`.
+
+## Deployment (Vercel)
+This project includes a `vercel.json` configuration file, making it ready for Serverless Deployment on Vercel.
+
+1. Push your code to GitHub.
+2. Sign in to [Vercel](https://vercel.com/) and click **Add New > Project**.
+3. Import your GitHub repository.
+4. **Important**: Before clicking Deploy, expand the **Environment Variables** section and add:
+   - Name: `MISTRAL_API_KEY`
+   - Value: `<your-actual-api-key>`
+5. Click **Deploy**. Vercel will automatically build and host the Flask application.
 
 ## Model / Dataset Information
 - **Dataset:** The project uses a synthetic dataset generated via `download_data.py` designed to mimic realistic correlations between study hours, attendance, past scores, and academic success.
