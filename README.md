@@ -1,5 +1,6 @@
 # EduPredict AI - Student Performance Predictor
 
+🚀 **Live Demo:** [https://eduprediction-ai.vercel.app/](https://eduprediction-ai.vercel.app/)
 ## Overview
 EduPredict AI is a machine learning web application designed to predict and analyze student academic performance. By evaluating critical metrics such as study hours, attendance rates, past exam scores, and other socio-educational factors, the system employs advanced predictive models (including XGBoost and Gradient Boosting) to forecast final scores. 
 
