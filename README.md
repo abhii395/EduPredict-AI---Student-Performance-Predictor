@@ -52,8 +52,13 @@ Activate the virtual environment:
 - **macOS/Linux**: `source venv/bin/activate`
 
 ### 3. Install dependencies
+For running the app (Vercel production dependencies):
 ```bash
 pip install -r requirements.txt
+```
+To run the ML training pipeline locally (includes heavy libraries like XGBoost and Matplotlib):
+```bash
+pip install -r requirements-train.txt
 ```
 
 ### 4. Configure Environment Variables
